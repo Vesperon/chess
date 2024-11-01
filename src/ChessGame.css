@@ -1,0 +1,24 @@
+.chess-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .notation-panel {
+    width: 200px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow-y: auto;
+    max-height: 820px; /* Keeps height aligned with the chessboard */
+  }
+  
+  .notation-panel h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  .notation-panel ol {
+    padding-left: 20px;
+  }
+  
